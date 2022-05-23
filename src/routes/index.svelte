@@ -16,14 +16,18 @@
             </div>
             <div id="videos" class="snap-start h-screen">
                 <div class="grid grid-cols-1 h-screen lg:grid-cols-3 lg:justify-items-center lg:content-center lg:self-center mx-20 lg:gap-x-20">
-                    <div class="">
-                        <iframe type='video/mp4' src="http://londonst.net/londonst/videos/LondonStWall.mp4" class="aspect-video"  frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    
                     <div class="">
                         <iframe src="https://www.youtube.com/embed/g3zRQXK7zoc" class="aspect-video" frameborder="5px" allow=" fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="">
                         <iframe src="https://www.youtube.com/embed/g3zRQXK7zoc" class="aspect-video" frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="">
+                        <iframe src="https://www.youtube.com/embed/g3zRQXK7zoc" class="aspect-video" frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="">
+                        <iframe type='video/mp4' src="http://londonst.net/londonst/videos/LondonStWall.mp4" class="aspect-video"  frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
