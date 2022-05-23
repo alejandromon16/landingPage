@@ -38,7 +38,7 @@
 		}
 	];
 	let linksVideos = [
-		'https://www.youtube.com/embed/g3zRQXK7zoc',
+		'https://www.youtube.com/embed/FP808MiJUcM',
 		'https://www.youtube.com/embed/g3zRQXK7zoc',
 		'https://www.youtube.com/embed/g3zRQXK7zoc'
 	];
@@ -74,11 +74,11 @@
 			<div
 				class="grid grid-cols-1 justify-items-center text-white pt-[92px] lg:mt-40 text-center animate__animated animate__zoomIn"
 			>
-				<h1 class="font-bold text-7xl">London St</h1>
-				<h1 class=" text-3xl mt-10  animate__animated animate__zoomIn animate__delay-1s">
+				<h1 class="font-bold text-9xl">London St</h1>
+				<h1 class=" text-5xl mt-10  animate__animated animate__zoomIn animate__delay-1s lg:mt-10">
 					A Sensible excuse
 				</h1>
-				<h1 class=" text-xl mt-10  animate__animated animate__zoomIn animate__delay-1s">
+				<h1 class=" text-3xl mt-10  animate__animated animate__zoomIn animate__delay-1s lg:mt-10">
 					Since July 13th, 1985
 				</h1>
 			</div>

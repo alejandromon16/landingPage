@@ -13,7 +13,7 @@
 	<div class="animate__animated animate__backInRight">
 		<h1 class="hover:underline-offset-8">{data.title}:</h1>
 
-		<h1 class="font-bold text-lg hover:underline-offset-8 hover:scale-110 duration-500">
+		<h1 class="font-bold text-2xl hover:underline-offset-8 hover:scale-110 duration-500">
 			<a href={data.info.url} on:click={() => animateScroll.scrollTo({ elements: '#videos' })}>
 				{data.info.name}
 			</a>
@@ -24,6 +24,6 @@
 				</a>
 			{/if}
 		</h1>
-		<h1><a href={data.info2.url}>{data.info2.name}</a></h1>
+		<h1 class="text-xl"><a href={data.info2.url}>{data.info2.name}</a></h1>
 	</div>
 </div>
