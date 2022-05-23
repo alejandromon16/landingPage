@@ -1,6 +1,6 @@
 <img src="background/image.jpeg" alt="" class="fixed h-90 w-auto lg:h-screen lg:w-screen -z-10 brightness-90 saturate-150" />
 <div class="fixed top-[230px] left-0 right-0 bottom-0 lg:inset-0 -z-0 bg-black lg:bg-opacity-20"></div>
-<div class="absolute">
+<div class="absolute scroll-smooth">
         <div class="snap-y snap-mandatory h-screen w-screen overflow-scroll text-white overflow-x-hidden">
             <div class=" snap-start h-screen w-full">
                 <div class="grid grid-cols-1 justify-items-center text-white pt-[92px] lg:mt-40 text-center animate__animated animate__zoomIn">
@@ -8,16 +8,16 @@
                     <h1 class=" text-3xl mt-10  animate__animated animate__zoomIn animate__delay-1s">A Sensible excuse</h1>
                     <h1 class=" text-xl mt-10  animate__animated animate__zoomIn animate__delay-1s">Since July 13th, 1985</h1>
                 </div>
-                <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-60 mt-14 overflow-hidden px-10">
+                <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-60 mt-20 overflow-hidden px-10">
                     {#each datas as data}
                          <Info {data}/>
                     {/each}
                 </div>
             </div>
-            <div class="snap-start h-screen" id="content">
+            <div id="videos" class="snap-start h-screen">
                 <div class="grid grid-cols-1 h-screen lg:grid-cols-3 lg:justify-items-center lg:content-center lg:self-center mx-20 lg:gap-x-20">
                     <div class="">
-                        <iframe src="http://londonst.net/londonst/videos/LondonStWall.mp4" class="aspect-video"  frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        <iframe type='video/mp4' src="http://londonst.net/londonst/videos/LondonStWall.mp4" class="aspect-video"  frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="">
                         <iframe src="https://www.youtube.com/embed/g3zRQXK7zoc" class="aspect-video" frameborder="5px" allow=" fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -32,7 +32,8 @@
 
 <script>
     import Info from '$lib/components/info.svelte';
-    import { fade } from 'svelte/transition';
+   
+
     let datas = [
         {
             title: 'Locations',
@@ -45,7 +46,8 @@
         {
             title: 'Contacts',
             info: {
-                name: 'Videos'
+                name: 'Videos',
+                url: '#videos'
             },
             info2: ''
         },
