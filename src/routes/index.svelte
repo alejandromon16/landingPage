@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div id="videos" class="snap-start h-screen">
-                <div class="grid grid-cols-1 h-screen lg:grid-cols-3 lg:justify-items-center lg:content-center lg:self-center mx-20 lg:gap-x-20">
+                <div class="grid grid-cols-1 h-screen pt-20 mx-auto lg:grid-cols-3 gap-y-10 justify-items-center lg:content-center lg:self-center lg:mx-20 lg:gap-x-20 lg:gap-y-20">
                     
                     <div class="">
                         <iframe src="https://www.youtube.com/embed/g3zRQXK7zoc" class="aspect-video" frameborder="5px" allow=" fullscreen; picture-in-picture" allowfullscreen></iframe>
