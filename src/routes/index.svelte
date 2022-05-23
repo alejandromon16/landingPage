@@ -42,9 +42,11 @@
             title: 'Follow us',
             info: {
                 url: 'https://www.facebook.com/London-St-108841951007240/',
-                name: 'fb:londonst'
+                url2: 'https://www.instagram.com/invites/contact/?i=kzzoqn2t6d0f&utm_content=m96cpk4',
+                name: 'fb:Londonst',
+                name2: 'Ig:Londonst'
             },
-            info2: 'Ig:Londonst'
+            info2: 'link tester'
         },
     ]
 </script>
