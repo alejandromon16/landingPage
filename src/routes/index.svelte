@@ -14,9 +14,9 @@
 			}
 		},
 		{
-			title: 'Contacts',
+			title: 'videos',
 			info: {
-				name: 'Videos',
+				name: 'Moments',
 				url: '#videos'
 			},
 			info2: {
