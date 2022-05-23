@@ -16,19 +16,9 @@
             </div>
             <div id="videos" class="snap-start h-screen">
                 <div class="grid grid-cols-1 h-screen pt-20 mx-auto lg:grid-cols-3 gap-y-10 justify-items-center lg:content-center lg:self-center lg:mx-20 lg:gap-x-20 lg:gap-y-20">
-                    
-                    <div class="">
-                        <iframe src="https://www.youtube.com/embed/g3zRQXK7zoc" class="aspect-video" frameborder="5px" allow=" fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="">
-                        <iframe src="https://www.youtube.com/embed/g3zRQXK7zoc" class="aspect-video" frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="">
-                        <iframe src="https://www.youtube.com/embed/g3zRQXK7zoc" class="aspect-video" frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="">
-                        <iframe type='video/mp4' src="http://londonst.net/londonst/videos/LondonStWall.webm" class="aspect-video"  frameborder="5px" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    {#each linksVideos as url}
+                        <Video {url} />
+                    {/each}
                 </div>
             </div>
         </div>
@@ -36,6 +26,7 @@
 
 <script>
     import Info from '$lib/components/info.svelte';
+    import Video from '$lib/components/video.svelte';
    
 
     let datas = [
@@ -68,12 +59,14 @@
                 name2: 'Ig:Londonst'
             },
             info2: {
-                name:'Info@londonst.net',
+                name:'Tester London',
                 url: 'https://docs.google.com/forms/d/1mnCucDm8GLgIr7rqLPx2i-sCodf9BUApMBAAMFb-BYk/edit'
             }
         },
     ]
-    let linkVideos = [
-
+    let linksVideos = [
+        'https://www.youtube.com/embed/g3zRQXK7zoc',
+        'https://www.youtube.com/embed/g3zRQXK7zoc',
+        'https://www.youtube.com/embed/g3zRQXK7zoc'
     ]
 </script>
