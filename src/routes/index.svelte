@@ -45,7 +45,9 @@
                 name: 'Santa Cruz/La Paz/Cochabamba/Oruro',
                 url: 'https://api.whatsapp.com/send/?phone=59169079099&text&app_absent=0'
             },
-            info2: '(591)690-790-99'
+            info2: {
+                name:'(591)690-790-99'
+            }
         },
         {
             title: 'Contacts',
@@ -53,7 +55,9 @@
                 name: 'Videos',
                 url: '#videos'
             },
-            info2: ''
+            info2: {
+                name: ''
+            }
         },
         {
             title: 'Follow us',
@@ -63,7 +67,10 @@
                 name: 'fb:Londonst',
                 name2: 'Ig:Londonst'
             },
-            info2: 'Info@londonst.net'
+            info2: {
+                name:'Info@londonst.net',
+                url: 'https://docs.google.com/forms/d/1mnCucDm8GLgIr7rqLPx2i-sCodf9BUApMBAAMFb-BYk/edit'
+            }
         },
     ]
 </script>
