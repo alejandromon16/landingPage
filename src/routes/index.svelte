@@ -34,7 +34,7 @@
         {
             title: 'Contacts',
             info: {
-                name: 'Info@londonst.net'
+                name: 'Videos'
             },
             info2: ''
         },
@@ -46,7 +46,7 @@
                 name: 'fb:Londonst',
                 name2: 'Ig:Londonst'
             },
-            info2: 'link tester'
+            info2: 'Info@londonst.net'
         },
     ]
 </script>
