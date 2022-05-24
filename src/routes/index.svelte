@@ -47,9 +47,9 @@
 <img
 	src="background/image.jpeg"
 	alt=""
-	class="fixed h-90 w-auto h-screen lg:h-screen lg:w-screen -z-10 brightness-90 saturate-150 aspect-auto"
+	class="fixed h-90 w-auto lg:h-screen lg:w-screen -z-10 brightness-90 saturate-150 aspect-auto"
 />
-<div class="hidden fixed top-[230px] left-0 right-0 bottom-0 lg:inset-0 -z-0 bg-black lg:bg-opacity-20" />
+<div class="fixed top-[230px] left-0 right-0 bottom-0 lg:inset-0 -z-0 bg-black lg:bg-opacity-20" />
 <div class="absolute ">
 	<a href= "#inicio"class="fixed bottom-10 right-10 z-10 bg-white rounded-full p-3 lg:right-[100px] lg:bottom-[70px]"
 		><svg
@@ -69,7 +69,7 @@
 	>
 </div>
 <div class="absolute scroll-smooth">
-	<div class="snap-y snap-none h-screen w-screen overflow-scroll text-white overflow-x-hidden">
+	<div class="snap-y h-screen w-screen overflow-scroll text-white overflow-x-hidden">
 		<div id="inicio" class=" snap-start h-screen w-full">
 			<div
 				class="grid grid-cols-1 justify-items-center text-white pt-[92px] lg:mt-40 text-center animate__animated animate__zoomIn"
