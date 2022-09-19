@@ -77,7 +77,7 @@
 			<div
 				class="grid grid-cols-1 justify-items-center text-white pt-[92px] lg:mt-40 text-center animate__animated animate__zoomIn"
 			>
-				<h1 class="font-bold text-6xl lg:text-9xl">London St</h1>
+				<h1 class="font-bold text-6xl lg:text-9xl">London Javier</h1>
 				<h1
 					class=" text-2xl lg:text-5xl animate__animated animate__zoomIn animate__delay-1s lg:mt-10"
 				>
