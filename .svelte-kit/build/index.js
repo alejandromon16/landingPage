@@ -4,7 +4,7 @@ import { respond } from '/home/alm1/profe/landingPage/.svelte-kit/runtime/server
 import { set_paths, assets, base } from '/home/alm1/profe/landingPage/.svelte-kit/runtime/paths.js';
 import { set_prerendering } from '/home/alm1/profe/landingPage/.svelte-kit/runtime/env.js';
 
-const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<link rel=\"icon\" href=\"" + assets + "/favicon.png\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\t\t<link\n\t\t\trel=\"stylesheet\"\n\t\t\thref=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\"\n\t\t/>\n\t\t<link rel=\"stylesheet\"\n          href=\"https://fonts.googleapis.com/css?family=Oswald\">\n\t\t  <style>\n\t\t\tbody {\n\t\t\t  font-family: 'Oswald', serif;\n\t\t\t}\n\t\t  </style>\n\t\t" + head + "\n\t</head>\n\t<body>\n\t\t<div>" + body + "</div>\n\t</body>\n</html>\n";
+const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<link rel=\"icon\" href=\"" + assets + "/favicon.png\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\t\t<link\n\t\t\trel=\"stylesheet\"\n\t\t\thref=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\"\n\t\t/>\n\t\t<link rel=\"stylesheet\"\n          href=\"https://fonts.googleapis.com/css?family=Poppins\">\n\t\t  <style>\n\n\t\t\thtml{\n\t\t\t\tscroll-behavior: smooth;\n\t\t\t}\n\t\t\tbody {\n\t\t\t  font-family: 'Poppins', serif;\n\t\t\t}\n\t\t  </style>\n\t\t" + head + "\n\t</head>\n\t<body>\n\t\t<div>" + body + "</div>\n\t</body>\n</html>\n";
 
 let read = null;
 

@@ -29,7 +29,7 @@ var __objRest = (source, exclude) => {
     }
   return target;
 };
-import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./chunks/index-57608c9a.js";
+import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./chunks/index-1259f1f6.js";
 function afterUpdate() {
 }
 const Root = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -2084,7 +2084,7 @@ async function respond(request, options, state) {
   const event = {
     get clientAddress() {
       if (!state.getClientAddress) {
-        throw new Error(`${"@sveltejs/adapter-auto"} does not specify getClientAddress. Please raise an issue`);
+        throw new Error(`${"@sveltejs/adapter-static"} does not specify getClientAddress. Please raise an issue`);
       }
       Object.defineProperty(event, "clientAddress", {
         value: state.getClientAddress()
@@ -2259,10 +2259,14 @@ const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 		/>
 		<link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Oswald">
+          href="https://fonts.googleapis.com/css?family=Poppins">
 		  <style>
+
+			html{
+				scroll-behavior: smooth;
+			}
 			body {
-			  font-family: 'Oswald', serif;
+			  font-family: 'Poppins', serif;
 			}
 		  </style>
 		` + head + "\n	</head>\n	<body>\n		<div>" + body + "</div>\n	</body>\n</html>\n";

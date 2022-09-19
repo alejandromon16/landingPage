@@ -1,9 +1,9 @@
 export const manifest = {
 	appDir: "_app",
-	assets: new Set(["background/image.jpeg","favicon.png"]),
-	mimeTypes: {".jpeg":"image/jpeg",".png":"image/png"},
+	assets: new Set(["background/Billing Management Console.pdf","background/image.jpeg","favicon.png"]),
+	mimeTypes: {".pdf":"application/pdf",".jpeg":"image/jpeg",".png":"image/png"},
 	_: {
-		entry: {"file":"start-0104ff14.js","js":["start-0104ff14.js","chunks/index-370689bf.js"],"css":[]},
+		entry: {"file":"start-8807867f.js","js":["start-8807867f.js","chunks/index-9a025cb2.js"],"css":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
